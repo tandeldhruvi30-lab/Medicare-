@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MediCare - Smart Hospital</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
+    <div class="container">
+
+        <a class="navbar-brand fw-bold text-primary" href="#">
+            MediCare
+        </a>
+
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#departments">Departments</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#doctors">Doctors</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#appointment">
+                        Appointment
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="container">
+        <div class="row align-items-center">
+
+            <div class="col-lg-7">
+                <h1>
+                    Your Health,
+                    <span>Our Priority</span>
+                </h1>
+
+                <p>
+                    MediCare provides a simple and convenient platform
+                    to explore doctors, departments and hospital services.
+                </p>
+
+                <a href="#appointment"
+                   class="btn btn-primary btn-lg">
+                    Book Appointment
+                </a>
+            </div>
+
+            <div class="col-lg-5">
+                <div class="hero-card">
+                    <h3>24/7 Healthcare Support</h3>
+                    <p>
+                        Find healthcare information and request
+                        appointments easily.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Departments -->
+<section id="departments" class="section">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Medical Departments</h2>
+            <p>Choose the department according to your requirement.</p>
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card department-card">
+                    <div class="card-body">
+                        <h4>General Medicine</h4>
+                        <p>
+                            General consultation and routine healthcare.
+                        </p>
+                        <button class="btn btn-outline-primary">
+                            View Doctors
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card department-card">
+                    <div class="card-body">
+                        <h4>Cardiology</h4>
+                        <p>
+                            Heart and cardiovascular healthcare services.
+                        </p>
+                        <button class="btn btn-outline-primary">
+                            View Doctors
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card department-card">
+                    <div class="card-body">
+                        <h4>Dermatology</h4>
+                        <p>
+                            Healthcare services related to skin conditions.
+                        </p>
+                        <button class="btn btn-outline-primary">
+                            View Doctors
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card department-card">
+                    <div class="card-body">
+                        <h4>Pediatrics</h4>
+                        <p>
+                            Healthcare services for children.
+                        </p>
+                        <button class="btn btn-outline-primary">
+                            View Doctors
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card department-card">
+                    <div class="card-body">
+                        <h4>Orthopedics</h4>
+                        <p>
+                            Bone, joint and muscle related services.
+                        </p>
+                        <button class="btn btn-outline-primary">
+                            View Doctors
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card department-card">
+                    <div class="card-body">
+                        <h4>Neurology</h4>
+                        <p>
+                            Services related to neurological health.
+                        </p>
+                        <button class="btn btn-outline-primary">
+                            View Doctors
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Doctors -->
+<section id="doctors" class="section bg-light">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Our Doctors</h2>
+            <p>Meet our experienced healthcare professionals.</p>
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card doctor-card">
+                    <div class="doctor-icon">DR</div>
+                    <h4>Dr. Rahul Sharma</h4>
+                    <p>General Physician</p>
+                    <p>Experience: 10 Years</p>
+                    <a href="#appointment"
+                       class="btn btn-primary">
+                        Book Appointment
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card doctor-card">
+                    <div class="doctor-icon">DR</div>
+                    <h4>Dr. Priya Patel</h4>
+                    <p>Cardiologist</p>
+                    <p>Experience: 8 Years</p>
+                    <a href="#appointment"
+                       class="btn btn-primary">
+                        Book Appointment
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card doctor-card">
+                    <div class="doctor-icon">DR</div>
+                    <h4>Dr. Amit Mehta</h4>
+                    <p>Dermatologist</p>
+                    <p>Experience: 7 Years</p>
+                    <a href="#appointment"
+                       class="btn btn-primary">
+                        Book Appointment
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Services -->
+<section id="services" class="section">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Our Services</h2>
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-md-3">
+                <div class="service-box">
+                    <h4>Consultation</h4>
+                    <p>Connect with healthcare professionals.</p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="service-box">
+                    <h4>Health Checkup</h4>
+                    <p>Basic health checkup information.</p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="service-box">
+                    <h4>Diagnostics</h4>
+                    <p>Information about diagnostic services.</p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="service-box">
+                    <h4>Appointments</h4>
+                    <p>Request an appointment online.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Appointment -->
+<section id="appointment" class="section bg-light">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Book an Appointment</h2>
+            <p>Fill in the details below.</p>
+        </div>
+
+        <form id="appointmentForm" class="appointment-form">
+
+            <div class="row">
+
+                <div class="col-md-6 mb-3">
+                    <label>Patient Name</label>
+                    <input type="text"
+                           id="patientName"
+                           class="form-control"
+                           placeholder="Enter your name">
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label>Mobile Number</label>
+                    <input type="tel"
+                           id="mobile"
+                           class="form-control"
+                           placeholder="Enter mobile number">
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label>Department</label>
+
+                    <select id="department"
+                            class="form-select">
+
+                        <option value="">Select Department</option>
+                        <option>General Medicine</option>
+                        <option>Cardiology</option>
+                        <option>Dermatology</option>
+                        <option>Pediatrics</option>
+                        <option>Orthopedics</option>
+
+                    </select>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label>Doctor</label>
+
+                    <select id="doctor"
+                            class="form-select">
+
+                        <option value="">Select Doctor</option>
+                        <option>Dr. Rahul Sharma</option>
+                        <option>Dr. Priya Patel</option>
+                        <option>Dr. Amit Mehta</option>
+
+                    </select>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label>Appointment Date</label>
+
+                    <input type="date"
+                           id="date"
+                           class="form-control">
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label>Preferred Time</label>
+
+                    <input type="time"
+                           id="time"
+                           class="form-control">
+                </div>
+
+            </div>
+
+            <button type="submit"
+                    class="btn btn-primary">
+                Submit Appointment
+            </button>
+
+            <div id="message"
+                 class="alert mt-3 d-none">
+            </div>
+
+        </form>
+
+    </div>
+</section>
+
+
+<!-- Footer -->
+<footer>
+    <div class="container text-center">
+        <h4>MediCare</h4>
+        <p>
+            Smart Hospital Appointment Web Application
+        </p>
+        <p>
+            © 2026 MediCare. All Rights Reserved.
+        </p>
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
+<link rel="stylesheet" herf="style.css">
